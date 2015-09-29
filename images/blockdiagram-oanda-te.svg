@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with ASCIIToSVG (http://9vx.org/~dho/a2s/) -->
+<svg width="766px" height="592px" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="dsFilterNoBlur" width="150%" height="150%">
+      <feOffset result="offOut" in="SourceGraphic" dx="3" dy="3"/>
+      <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+      <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+    </filter>
+    <filter id="dsFilter" width="150%" height="150%">
+      <feOffset result="offOut" in="SourceGraphic" dx="3" dy="3"/>
+      <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="3"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+    <marker id="iPointer"
+      viewBox="0 0 10 10" refX="5" refY="5" 
+      markerUnits="strokeWidth"
+      markerWidth="8" markerHeight="7"
+      orient="auto">
+      <path d="M 10 0 L 10 10 L 0 5 z" />
+    </marker>
+    <marker id="Pointer"
+      viewBox="0 0 10 10" refX="5" refY="5" 
+      markerUnits="strokeWidth"
+      markerWidth="8" markerHeight="7"
+      orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs><g id="boxes" stroke="black" stroke-width="2" fill="none" >
+<g id="groupOANDAd">
+	<path id="pathOANDAd" filter="url(#dsFilter)" fill="#fff" d="M 166.5 88 L 399.5 88 Q 409.5 88 409.5 98 L 409.5 318 Q 409.5 328 399.5 328 L 176.5 328 Q 166.5 328 166.5 318 Z" />
+	<text x="179.1" y="108.8" id="textOANDAd" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >OANDAd </text>
+
+	<text x="188.1" y="204.8" id="textOANDAd" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >Plugins </text>
+
+	<text x="188.1" y="268.8" id="textOANDAd" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >pub </text>
+
+	<text x="188.1" y="284.8" id="textOANDAd" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >sub </text>
+
+	<text x="314.1" y="284.8" id="textOANDAd" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >SQL </text>
+
+</g>
+<g id="groupLogs">
+	<path id="pathLogs" filter="url(#dsFilter)" fill="#fff" d="M 472.5 120 L 579.5 120 Q 589.5 120 589.5 130 L 589.5 200 L 472.5 200 Z" />
+	<text x="485.1" y="140.8" id="textLogs" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >Logs : </text>
+
+	<text x="485.1" y="172.8" id="textLogs" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >OANDAd.log </text>
+
+	<text x="485.1" y="188.8" id="textLogs" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >stream.log </text>
+
+</g>
+<g id="group5">
+	<path id="path5" filter="url(#dsFilter)" fill="#fff" d="M 202.5 146 Q 202.5 136 212.5 136 L 336.5 136 Q 346.5 136 346.5 146 L 346.5 158 Q 346.5 168 336.5 168 L 212.5 168 Q 202.5 168 202.5 158 Z" />
+	<text x="215.1" y="156.8" id="text5" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >CandleFactory </text>
+
+</g>
+<g id="group22">
+	<path id="path22" filter="url(#dsFilter)" fill="#fff" d="M 238.5 258 Q 238.5 248 248.5 248 L 282.5 248 Q 292.5 248 292.5 258 L 292.5 302 Q 292.5 312 282.5 312 L 248.5 312 Q 238.5 312 238.5 302 Z" />
+	<text x="242.1" y="268.8" id="text22" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >plain </text>
+
+	<text x="242.1" y="284.8" id="text22" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >file </text>
+
+</g>
+<g id="group26">
+	<path id="path26" filter="url(#dsFilter)" fill="#fff" d="M 364.5 258 Q 364.5 248 374.5 248 L 381.5 248 Q 391.5 248 391.5 258 L 391.5 302 Q 391.5 312 381.5 312 L 374.5 312 Q 364.5 312 364.5 302 Z" />
+	<text x="368.1" y="284.8" id="text26" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >.. </text>
+
+</g>
+<g id="groupDB">
+	<path id="pathDB" d="M 499.5 273.6 L 499.5 312 A 31.5 7.2 0 0 0 562.5 312 V 273.6 A 31.5 7.2 0 0 0 499.5 273.6 Z " filter="url(#dsFilter)" fill="#fff"  />
+	<path id="pathDB" d="M 499.5 273.6 A 31.5 7.2 0 0 0 562.5 273.6 "  />
+	<text x="512.1" y="284.8" id="text18" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >DB </text>
+
+</g>
+<g id="group57">
+	<path id="path57" filter="url(#dsFilter)" fill="#fff" d="M 58.5 482 Q 58.5 472 68.5 472 L 174.5 472 Q 184.5 472 184.5 482 L 184.5 510 Q 184.5 520 174.5 520 L 68.5 520 Q 58.5 520 58.5 510 Z" />
+	<text x="71.1" y="492.8" id="text57" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >Trading app </text>
+
+	<text x="71.1" y="508.8" id="text57" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >(Nodejs) </text>
+
+</g>
+<g id="group60">
+	<path id="path60" filter="url(#dsFilter)" fill="#fff" d="M 211.5 482 Q 211.5 472 221.5 472 L 327.5 472 Q 337.5 472 337.5 482 L 337.5 510 Q 337.5 520 327.5 520 L 221.5 520 Q 211.5 520 211.5 510 Z" />
+	<text x="224.1" y="492.8" id="text60" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >Trading app </text>
+
+	<text x="224.1" y="508.8" id="text60" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >(Ruby) </text>
+
+</g>
+<g id="group63">
+	<path id="path63" filter="url(#dsFilter)" fill="#fff" d="M 364.5 482 Q 364.5 472 374.5 472 L 480.5 472 Q 490.5 472 490.5 482 L 490.5 510 Q 490.5 520 480.5 520 L 374.5 520 Q 364.5 520 364.5 510 Z" />
+	<text x="377.1" y="492.8" id="text63" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >Trading app </text>
+
+	<text x="377.1" y="508.8" id="text63" fill="#000" stroke="none" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >(Python) </text>
+
+</g>
+</g>
+<g id="lines" stroke="black" stroke-width="2" fill="none" >
+<g id="group544">
+	<path id="path544" marker-start="url(#iPointer)" d="M 112.5 456 L 112.5 434 Q 112.5 424 122.5 424 L 274.5 424 L 436.5 424 L 490.5 424 " />
+</g>
+<g id="group868">
+	<path id="path868" d="M 193.5 312 L 194.5 312 Q 184.5 312 184.5 302 L 184.5 258 Q 184.5 248 194.5 248 L 210.5 248 Q 220.5 248 220.5 258 L 220.5 302 Q 220.5 312 210.5 312 L 211.5 312 " />
+</g>
+<g id="group899">
+	<path id="path899" d="M 202.5 216 L 265.5 216 L 274.5 216 L 328.5 216 L 373.5 216 " />
+</g>
+<g id="group901">
+	<path id="path901" marker-start="url(#iPointer)" d="M 202.5 232 L 202.5 216 " />
+</g>
+<g id="group906">
+	<path id="path906" marker-end="url(#Pointer)" d="M 202.5 312 L 202.5 328 L 202.5 408 " />
+</g>
+<g id="group1160">
+	<path id="path1160" marker-start="url(#iPointer)" d="M 265.5 232 L 265.5 216 L 274.5 216 L 274.5 168 " />
+</g>
+<g id="group1184">
+	<path id="path1184" marker-end="url(#Pointer)" d="M 274.5 24 L 274.5 88 L 274.5 120 " />
+</g>
+<g id="group1209">
+	<path id="path1209" marker-end="url(#Pointer)" d="M 274.5 424 L 274.5 456 " />
+</g>
+<g id="group1388">
+	<path id="path1388" d="M 319.5 312 L 320.5 312 Q 310.5 312 310.5 302 L 310.5 258 Q 310.5 248 320.5 248 L 336.5 248 Q 346.5 248 346.5 258 L 346.5 302 Q 346.5 312 336.5 312 L 337.5 312 " />
+</g>
+<g id="group1420">
+	<path id="path1420" marker-start="url(#iPointer)" d="M 328.5 232 L 328.5 216 " />
+</g>
+<g id="group1425">
+	<path id="path1425" marker-end="url(#Pointer)" d="M 328.5 312 L 328.5 328 L 328.5 350 Q 328.5 360 338.5 360 L 427.5 360 " />
+</g>
+<g id="group1605">
+	<path id="path1605" marker-start="url(#iPointer)" d="M 373.5 232 L 373.5 216 " />
+</g>
+<g id="group1637">
+	<path id="path1637" marker-end="url(#Pointer)" d="M 382.5 152 L 409.5 152 L 463.5 152 " />
+</g>
+<g id="group1872">
+	<path id="path1872" d="M 436.5 360 L 516.5 360 Q 526.5 360 526.5 350 L 526.5 312 " />
+</g>
+<g id="group1876">
+	<path id="path1876" marker-end="url(#Pointer)" d="M 436.5 424 L 436.5 456 " />
+</g>
+</g>
+<g id="text" fill="black" style="font-family:Consolas,Monaco,Anonymous Pro,Anonymous,Bitstream Sans Mono,monospace;font-size:15.2px" >
+<text x="305.1" y="28.8" id="text1" fill="#000" >OANDA</text>
+<text x="305.1" y="44.8" id="text2" fill="#000" >tick-stream</text>
+<text x="26.1" y="204.8" id="text8" fill="#000" >OHLC-records </text>
+<text x="26.1" y="220.8" id="text10" fill="#000" >per timeframe </text>
+<text x="575.1" y="268.8" id="text13" fill="#000" >Database:</text>
+<text x="593.1" y="284.8" id="text19" fill="#000" >Postgresql</text>
+<text x="593.1" y="300.8" id="text20" fill="#000" >MySQL</text>
+<text x="593.1" y="316.8" id="text21" fill="#000" >...</text>
+<text x="503.1" y="428.8" id="text22" fill="#000" >.</text>
+<text x="521.1" y="428.8" id="text23" fill="#000" >.</text>
+<text x="521.1" y="460.8" id="text24" fill="#000" >Client applications</text>
+<text x="521.1" y="476.8" id="text25" fill="#000" >acting as ZMQ - subscriber</text>
+</g>
+</svg>
