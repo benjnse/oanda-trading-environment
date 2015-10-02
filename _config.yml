@@ -4,7 +4,7 @@ title: OANDA Trading Environment
 description: OANDA Trading Environment Scalable REST-API realtime plugins
 #logo: # 120x120 px default image used for Twitter summary card
 #teaser: # 400x250 px default teaser image used in image archive grid
-#teaser: empty-400x250.jpg
+teaser: empty-400x250.jpg
 locale:
 url: http://hootnot.github.io/oanda-trading-environment
 baseurl: /oanda-trading-environment
