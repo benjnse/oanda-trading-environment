@@ -3,8 +3,9 @@ layout: article
 title: "Subscription with nodejs to OANDAd"
 description: ""
 image:
-  teaser: empty-400x250.jpg
-category: 
+  teaser: nodejs-400x250.png
+categories: articles
+comment: true
 tags: []
 ---
 
