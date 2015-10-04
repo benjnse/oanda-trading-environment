@@ -9,11 +9,6 @@
   url: /getting-started/
   excerpt: Setting up ...
 
-- title: "'Dedicated Server'"
-  excerpt: Setup a low-power dedicated server for OANDA's REST-API
-  image: raspberrypi-logo-transp-39x50.png
-  url: /dedicatedserver/
-
 - title: Pub/Sub
   url: /pubsub/
   excerpt: Publish & Subscribe example using ZMQ
